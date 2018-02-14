@@ -1,0 +1,148 @@
+//Huzefa Dossaji
+//ECE 2230 Fall 2015
+//MP3
+// 
+
+
+//Test 1: Appendl a few packets into the list
+
+APPENDL 3
+3
+4
+2
+5
+2
+5
+5
+APPENDL 6
+2
+6
+3
+7
+9
+4
+8
+APPENDL 4
+3
+1
+5
+6
+8
+3
+7
+APPENDL 1
+6
+32
+6
+8
+4
+3
+6
+APPENDL 8
+7
+3
+6
+2
+5
+3
+5
+APPENDL 9
+3
+6
+2
+5
+3
+6
+3
+//Test 2: Print the unsorted list
+PRINTL
+//Test 3: sort the list using the fourth sorting algorithm, merge sort. 
+SORTL 4
+// Test 4: Appendl a few more packets into the list and then sort again using merge sort
+APPENDL 6
+3
+6
+2
+5
+2
+5
+2
+APPENDL 1
+1
+4
+14
+4
+2
+4
+5
+APPENDL 3
+1
+54
+2
+5
+2
+6
+2
+SORTL 4
+// Test 5: Add another packet and sort with sort algorithm 1
+APPENDL 1
+4
+2
+5
+2
+5
+4
+3
+SORTL 1
+// Test 6: add some more packets and sort with sort algorithm 2
+APPENDL 8
+32
+6
+3
+6
+3
+5
+3
+APPENDL 8
+4
+7
+4
+2
+5
+3
+3
+APPENDL 6
+2
+6
+2
+5
+2
+5
+3
+SORTL 2
+// Test 7: Add another packet and sort with sort algorithm 3
+APPENDL 7
+3
+6
+2
+2
+1
+6
+2
+SORTL 3
+APPENDL 7
+3
+6
+3
+6
+2
+1
+4
+Test 8: scan threshold of three. it should not let you until after its sorted. so sort with sortl and then scan again after printing and it should work
+SCANL 3
+SORTL 1
+PRINTL
+SCANL 3
+Test 9: end the program with no valgrind errors. 
+QUIT
+
